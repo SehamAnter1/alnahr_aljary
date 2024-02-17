@@ -1,0 +1,79 @@
+.border-light-gray {
+    border: 1px solid RGBA(112, 112, 112, 0.35);
+}
+.radius-11 {
+    border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
+}
+.cursor-pointer {
+    cursor: pointer !important;
+}
+.colored-btn {
+    background-color: #1d9098;
+    color: #fff;
+    outline: none !important;
+    box-shadow: none !important;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    &:hover {
+        border-color: 1px solid #1d9098;
+        color: #1d9098;
+        background-color: transparent;
+        .btnIcon {
+            color: #1d9098;
+        }
+    }
+}
+.outline-btn {
+    border: 1px solid #1d9098 !important;
+    color: #1d9098;
+    background-color: transparent;
+    outline: none !important;
+    box-shadow: none !important;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    &:hover {
+        background-color: #1d9098;
+        color: #fff;
+        .btnIcon {
+            color: #fff;
+        }
+    }
+}
+.fs-25 {
+    font-size: 25px;
+}
+.text-main {
+    color: #1d9098;
+}
+.text-white {
+    color: #fff;
+}
+.gap-41 {
+    gap: 41px;
+}
+.bg-gray {
+    background-color: #ececec !important;
+}
+.text-gray {
+    color: #8e8e8e;
+}
+.text-10 {
+    font-size: 10px !important;
+}
+.text-16 {
+    font-size: 16px !important;
+}

@@ -1,0 +1,28 @@
+.singin-alert {
+    border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
+    border: 1px solid RGBA(112, 112, 112, 0.35);
+    padding: 10px 25px 26px 10px;
+
+    h3 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    p {
+        font-size: 18px;
+        // response
+        @media (max-width: 400px) {
+            font-size: 15px;
+        }
+    }
+    .close {
+        width: 50px;
+    }
+    .btnIcon {
+        font-size: 13px;
+    }
+}

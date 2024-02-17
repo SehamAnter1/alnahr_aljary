@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="183" height="44" viewBox="0 0 183 44">
+  <g id="Group_175492" data-name="Group 175492" transform="translate(-228 -428.575)">
+    <path id="Rectangle_409" data-name="Rectangle 409" d="M0,0H40a4,4,0,0,1,4,4V40a4,4,0,0,1-4,4H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(367 428.575)"/>
+    <g id="Rectangle_410" data-name="Rectangle 410" transform="translate(228 428.575)" fill="none" stroke="#000" stroke-width="1">
+      <rect width="183" height="44" rx="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="182" height="43" rx="3.5" fill="none"/>
+    </g>
+    <g id="caution-sign" transform="translate(372.692 436.232)">
+      <path id="Path_6032" data-name="Path 6032" d="M32.049,43.7,18.342,19.959a2.484,2.484,0,0,0-4.3,0L.332,43.7a2.484,2.484,0,0,0,2.151,3.726H29.9A2.484,2.484,0,0,0,32.049,43.7ZM2.483,44.937,16.191,21.2,29.9,44.937Z" transform="translate(0.001 -18.717)" fill="#db0000"/>
+      <path id="Path_6033" data-name="Path 6033" d="M147.22,113.81l.712,8.156a1.011,1.011,0,0,0,2.014,0l.712-8.156a1.852,1.852,0,0,0,0-.3,1.726,1.726,0,1,0-3.439.3Z" transform="translate(-132.748 -102.774)" fill="#db0000"/>
+      <circle id="Ellipse_130" data-name="Ellipse 130" cx="1.425" cy="1.425" r="1.425" transform="translate(14.767 20.616)" fill="#db0000"/>
+    </g>
+    <text id="التبليغ_عن_الاعلان" data-name="التبليغ عن الاعلان" transform="translate(349.057 455.874)" font-size="16" font-family="CoconNextArabic-Regular, Cocon® Next Arabic"><tspan x="-106.528" y="0">التبليغ عن الاعلان</tspan></text>
+  </g>
+</svg>
