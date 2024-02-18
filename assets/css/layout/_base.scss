@@ -56,6 +56,22 @@
 .fs-25 {
     font-size: 25px;
 }
+.fs-30 {
+    font-size: 30px;
+}
+.fs-22 {
+    font-size: 22px;
+}
+.fs-20 {
+    font-size: 20px !important;
+}
+.fs-18 {
+    font-size: 18px !important;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
 .text-main {
     color: #1d9098;
 }
@@ -74,6 +90,117 @@
 .text-10 {
     font-size: 10px !important;
 }
+.text-13 {
+    font-size: 13px !important;
+}
 .text-16 {
     font-size: 16px !important;
+}
+.bg-white {
+    background-color: #fff;
+}
+.text-black {
+    color: #000 !important;
+}
+.text-gray-dark {
+    color: #6c6c6c !important;
+}
+.text-gold {
+    color: #f89c2a;
+}
+.text-cyan {
+    color: #1d9098;
+}
+.badge-cyan {
+    background-color: #1d9098 !important;
+    color: #fff !important  ;
+}
+.mx-258 {
+    height: 285px !important;
+    max-height: 258px !important;
+}
+.object-fit-cover {
+    object-fit: cover;
+}
+.object-position-center {
+    object-position: center;
+}
+.btn-black {
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 182px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+        border: 1px solid #000 !important;
+        color: #000 !important;
+        background-color: transparent;
+    }
+}
+.rounded-pill-lime {
+    background-color: #a8d04c;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    width: 155px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: none;
+    &:hover {
+        border: 1px solid #a8d04c !important;
+        color: #a8d04c;
+        background-color: transparent !important;
+    }
+}
+.rounded-pill-main {
+    background-color: #1d9098;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    width: 155px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: none;
+    &:hover {
+        border: 1px solid #1d9098 !important;
+        color: #1d9098;
+        background-color: transparent !important;
+    }
+}
+.rounded-pill-dark-red {
+    background-color: #9b0600;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    width: 155px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: none;
+    &:hover {
+        border: 1px solid #9b0600 !important;
+        color: #9b0600;
+        background-color: transparent !important;
+    }
 }
