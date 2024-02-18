@@ -421,7 +421,7 @@ p {
     .wrapper span {
         position: absolute;
         top: 75px;
-        font-family: "Lato";
+        font-family: Helvetica;
         font-size: 20px;
         letter-spacing: 12px;
         color: #fff;
@@ -904,7 +904,7 @@ p {
         .btn-style {
             border-radius: 22px;
             font-size: 1rem;
-            font-family: conl;
+            font-family: Helvetica;
             min-width: auto;
             width: auto;
             padding: 10px 14px;
@@ -993,7 +993,7 @@ p {
 
             h5 {
                 font-size: 2.5rem;
-                font-family: conb;
+                font-family: Helvetica;
                 margin: 15px 0;
             }
 
@@ -1212,7 +1212,7 @@ p {
             }
         }
 
-        input[type="checkbox"]:checked ~ .card-check {
+                input[type="checkbox"]:checked~.card-check {
             background-color: #000;
             color: #fff;
 
@@ -1289,7 +1289,7 @@ p {
                 span {
                     font-size: 1rem;
                     color: #8e8e8e;
-                    font-family: conl;
+                    font-family: Helvetica;
                     margin-right: 5px;
                 }
 
@@ -1416,7 +1416,7 @@ p {
                 }
 
                 label {
-                    font-family: conl;
+                    font-family: Helvetica;
                     margin-right: 10px;
                     cursor: pointer;
                 }
@@ -1539,12 +1539,12 @@ p {
         margin-top: 25px;
 
         a {
-            font-family: conb;
+            font-family: Helvetica;
             color: $secondColor;
 
             span {
                 color: #535353;
-                font-family: conl;
+                font-family: Helvetica;
             }
         }
     }
@@ -1576,11 +1576,9 @@ p {
         left: 0;
         width: 100%;
         height: 100%;
-        background-image: linear-gradient(
-            to center,
-            rgba(#000000, 0.64),
-            rgba(#fff, 1)
-        );
+        background-image: linear-gradient(to center,
+                    rgba(#000000, 0.64),
+                rgba(#fff, 1));
         border-top-left-radius: 16px;
         border-bottom-left-radius: 16px;
     }
@@ -1630,7 +1628,7 @@ p {
             color: $mainColor;
             text-align: center;
             font-size: 1.2rem;
-            font-family: conb;
+            font-family: Helvetica;
         }
 
         p {
@@ -1644,7 +1642,7 @@ p {
             span,
             a {
                 color: #000;
-                font-family: conl;
+                font-family: Helvetica;
             }
         }
     }
@@ -1673,7 +1671,7 @@ p {
 
         h5 {
             font-size: 3rem;
-            font-family: conb;
+            font-family: Helvetica;
         }
     }
 
@@ -1695,7 +1693,7 @@ p {
                         @extend %spcfies-number-of-line;
                         -webkit-line-clamp: 3 !important;
                         line-height: 35px;
-                        font-family: conl;
+                        font-family: Helvetica;
                     }
 
                     .date {
@@ -1741,7 +1739,7 @@ p {
 
         h5 {
             font-size: 3rem;
-            font-family: conb;
+            font-family: Helvetica;
         }
     }
 }
@@ -1816,7 +1814,7 @@ p {
 
         h5 {
             font-size: 3rem;
-            font-family: conb;
+            font-family: Helvetica;
         }
     }
 
@@ -1901,13 +1899,11 @@ p {
     &.message-receive {
         .message {
             margin-right: auto;
-            background-image: linear-gradient(
-                to left,
-                #0d0d0d,
-                #0d0d0d,
-                #0d0d0d,
-                rgba(#717171, 0.9)
-            );
+            background-image: linear-gradient(to left,
+                        #0d0d0d,
+                        #0d0d0d,
+                        #0d0d0d,
+                    rgba(#717171, 0.9));
             border-bottom-left-radius: 0;
         }
 
@@ -2556,7 +2552,7 @@ p {
         .title {
             font-size: 1.5rem;
             color: $secondColor;
-            font-family: conb;
+            font-family: Helvetica;
         }
 
         li {
@@ -2564,7 +2560,7 @@ p {
 
             p {
                 margin: 0;
-                font-family: conl;
+                font-family: Helvetica;
                 color: #8e8e8e;
             }
 
@@ -2617,14 +2613,14 @@ p {
                 h5 {
                     font-size: 1.2rem;
                     color: #535353;
-                    font-family: conl;
+                    font-family: Helvetica;
                 }
             }
 
             a {
                 color: $mainColor;
                 font-size: 1rem;
-                font-family: conl;
+                font-family: Helvetica;
             }
         }
 
@@ -2664,7 +2660,7 @@ p {
             border-radius: 9px;
             border: 1px solid #707070;
             margin-top: 30px;
-            font-family: conl;
+            font-family: Helvetica;
             padding: 20px;
             margin-bottom: 33px;
         }
@@ -2703,7 +2699,7 @@ p {
 
     .form-control {
         height: 50px;
-        font-family: conl;
+        font-family: Helvetica;
         background-color: #fff;
         border: 0.5pa solid $secondColor;
         margin-top: 15px;
@@ -2724,7 +2720,7 @@ p {
             // margin-top: 80px;
             color: #fff;
             font-size: 2.5rem;
-            font-family: conb;
+            font-family: Helvetica;
         }
 
         textarea.form-control {
@@ -2749,7 +2745,7 @@ p {
 
         h5 {
             font-size: 2.3rem;
-            font-family: conb;
+            font-family: Helvetica;
         }
     }
 
@@ -2759,7 +2755,7 @@ p {
 
     p {
         font-size: 1.1rem;
-        font-family: conl;
+        font-family: Helvetica;
         width: 60%;
         margin: auto;
         line-height: 25px;
@@ -2788,11 +2784,9 @@ p {
 .funun {
     padding: 15px 0;
     text-align: center;
-    background-image: linear-gradient(
-        to top,
-        rgba(#0039b5, 1),
-        rgba(#02284a, 1)
-    );
+    background-image: linear-gradient(to top,
+                rgba(#0039b5, 1),
+            rgba(#02284a, 1));
 
     img {
         width: 170px;
@@ -2811,11 +2805,9 @@ p {
     padding: 35px 0 29px 0;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(
-            to right,
+    background: linear-gradient(to right,
             rgba(39, 241, 255, 0.52) 60%,
-            #32c8d37a 40%
-        ),
+            #32c8d37a 40%),
         url("../images/footerimg.png");
 
     &::after {
@@ -2826,7 +2818,7 @@ p {
 
     .footer_logo_content {
         width: 80%;
-        font-family: conl;
+        font-family: Helvetica;
 
         img {
             margin-bottom: 15px;
@@ -2858,7 +2850,7 @@ p {
 
     h5 {
         color: #fff;
-        font-family: conb;
+        font-family: Helvetica;
         font-size: 1.1rem;
     }
 
@@ -2881,17 +2873,18 @@ p {
 
                 a {
                     color: #fff;
-                    font-family: conl;
+                    font-family: Helvetica;
                 }
             }
         }
     }
 
     .footer_follow {
+
         // margin-top: 65px;
         h5 {
             text-align: center;
-            font-family: conl;
+            font-family: Helvetica;
         }
 
         ul {
@@ -2911,7 +2904,7 @@ p {
         }
 
         h5 {
-            font-family: conl;
+            font-family: Helvetica;
         }
     }
 }
@@ -2948,6 +2941,7 @@ input[type="email"] {
 
 @media (max-width: 991px) {
     .custom-navbar {
+
         .links,
         .navbar-option {
             display: none !important;
@@ -3167,12 +3161,13 @@ input[type="email"] {
     margin-left: auto;
     border-radius: 5px;
     color: #fff;
-    font-family: jannab;
+    font-family: Helvetica;
 }
 
 .person-icon {
     width: 53px;
     height: 53px;
+
     img {
         width: 100%;
         height: 100%;
@@ -3184,6 +3179,7 @@ input[type="email"] {
         -o-border-radius: 50%;
     }
 }
+
 // base
 @import "./layout/base";
 // pagination
