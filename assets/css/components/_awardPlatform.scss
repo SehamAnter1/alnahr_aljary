@@ -1,0 +1,62 @@
+.rankList {
+    figure{
+        width: 70px;
+        height: 61px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+        .flag{
+            position: absolute;
+            left: -10px;
+            bottom: 0px;
+            width: 19px;
+            height: 19px;
+            img{
+                
+                width: 100%;
+                height: 100%;
+                border: 1px solid #A8D04C;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                object-fit: cover;
+                object-position: center;
+            }
+}
+    }
+}
+// reward container
+.reward{
+
+    perspective: 100px;
+   
+    .reward-container{
+        width: 201px;
+        &.winner{
+            border: 1px solid #F89C2A !important;
+            transform: translateZ(5px);
+            -webkit-transform: translateZ(5px);
+            -moz-transform: translateZ(5px);
+            -ms-transform: translateZ(5px);
+            -o-transform: translateZ(5px);
+}
+    }
+    @media (max-width:764px) {
+        flex-direction: column;
+        .reward-container{
+            width: 100%;
+            &.winner{
+                transform: unset;
+                -webkit-transform: unset;
+                -moz-transform: unset;
+                -ms-transform: unset;
+                -o-transform: unset;
+}
+        }
+    }
+}

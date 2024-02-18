@@ -1,160 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./assets/css/all.min.css" />
-    <link rel="stylesheet" href="./assets/css/aos.css" />
-    <link rel="stylesheet" href="./assets/css/bootstrap.rtl.min.css" />
-    <link rel="stylesheet" href="./assets/css/nice-select.css" />
-    <link rel="stylesheet" href="./assets/css/slick.css">
-    <link rel="stylesheet" href="./assets/css/slick-theme.css">
-    <link rel="stylesheet" href="./assets/css/animate.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title> home </title>
-</head>
-
-<body dir="rtl">
-
-
-    <div class="splashscreen">
-        <div class="loading">
-            <div></div>
-            <div></div>
-            <div></div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./assets/css/all.min.css">
+        <link rel="stylesheet" href="./assets/css/aos.css">
+        <link rel="stylesheet" href="./assets/css/bootstrap.rtl.min.css">
+        <link rel="stylesheet" href="./assets/css/nice-select.css">
+        <link rel="stylesheet" href="./assets/css/slick.css">
+        <link rel="stylesheet" href="./assets/css/slick-theme.css">
+        <link rel="stylesheet" href="./assets/css/animate.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+      <!-- english styling -->
+    <!-- <link rel="stylesheet" href="./assets/css/style-en.css"> -->
+    <title> home</title>
+    </head>
+    <body >
+        <div class="splashscreen">
+            <div class="loading">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </div>
-    </div>
-
-    <!-- overlay sidenav opened -->
-    <div class="bg-side-open"></div>
-
-    <!-- mobile navbar -->
-    <div class="side-nav">
-        <div class="container-xxl">
-            <div class="close-nav">
-                <div class="menu_icon" data-cursor="-icon">
-                    <div id="nav-icon1" class="open">
-                        <span></span>
-                        <span></span>
+        <!-- overlay sidenav opened -->
+        <div class="bg-side-open"></div>
+        <!-- mobile navbar -->
+        <div class="side-nav">
+            <div class="container-xxl">
+                <div class="close-nav">
+                    <div class="menu_icon" data-cursor="-icon">
+                        <div id="nav-icon1" class="open">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-wrapper">
+                    <div class="side-links">
+                        <ul class="list-unstyled mb-0">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="./index.html">الرئيسية</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./service1.html">من نحن</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./service1.html">المقالات</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./service1.html">الدورات</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./service1.html">المجموعات</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./service1.html">منصة التميز</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./service1.html"> اتصل بنا</a>
+                            </li>
+                            <div class="d-flex align-items-center gap-2 text-muted">
+                                <span>En</span>
+                                <a href="" class="person-icon ">
+                                    <img width="23" src="./assets/images/person.png" alt="">
+                                </a>
+                            </div>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <div class="side-wrapper">
-
-                <div class="side-links">
-                    <ul class="list-unstyled mb-0">
-                        <li class="nav-item "><a class="nav-link" href="./index.html">الرئيسية</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./service1.html">من نحن</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./service1.html">المقالات </a></li>
-                        <li class="nav-item"><a class="nav-link" href="./service1.html">الدورات </a></li>
-                        <li class="nav-item"><a class="nav-link" href="./service1.html">المجموعات </a></li>
-                        <li class="nav-item"><a class="nav-link" href="./service1.html">منصة التميز </a></li>
-                        <li class="nav-item"><a class="nav-link" href="./service1.html"> اتصل بنا </a></li>
-                        <div class="d-flex align-items-center gap-2 text-muted">
-                            <span>En</span>
-                            <a href="" class="person-icon ">
-                                <img width="23" src="./assets/images/person.png" alt="">
+        </div>
+        <div class="custom-navbar custom-navbar-position">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="logo-links d-flex align-items-center">
+                        <div class="menu_icon" data-cursor="-icon">
+                            <div id="nav-icon1">
+                                <!-- <span></span> -->
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="logo">
+                            <a href="./index.html" class="d-block">
+                                <img src="./assets/images/logo.png" alt="">
                             </a>
                         </div>
-                    </ul>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="custom-navbar custom-navbar-position">
-        <div class="container">
-            <div class="d-flex align-items-center justify-content-between">
-                <div class="logo-links d-flex align-items-center">
-                    <div class="menu_icon" data-cursor="-icon">
-                        <div id="nav-icon1">
-                            <!-- <span></span> -->
-                            <span></span>
-                            <span></span>
-                        </div>
                     </div>
-                    <div class="logo">
-                        <a href="./index.html" class="d-block">
-                            <img src="./assets/images/logo.png" alt="">
+                    <div class="links">
+                        <ul class="list-unstyled d-flex align-items-center mb-0">
+                            <li class="active">
+                                <a href="">الرئيسية</a>
+                            </li>
+                            <li>
+                                <a href="">من نحن</a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    المقالات
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">الدورات</a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    المجموعات
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    منصة التميز
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    الاختبارات
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    اتصل بنا
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex align-items-center gap-2 text-muted">
+                        <span>En</span>
+                        <a href="" class="person-icon ">
+                            <img width="23" src="./assets/images/person.png" alt="">
                         </a>
                     </div>
                 </div>
-                <div class="links">
-                    <ul class="list-unstyled d-flex align-items-center mb-0">
-                        <li class="active"><a href="">الرئيسية</a></li>
-                        <li><a href="">من نحن</a></li>
-                        <li><a href=""> المقالات
-                            </a></li>
-                        <li><a href="">الدورات </a></li>
-                        <li><a href=""> المجموعات
-                            </a></li>
-                        <li><a href="">منصة التميز
-                            </a></li>
-                        <li><a href="">الاختبارات
-                            </a></li>
-                        <li><a href=""> اتصل بنا
-                            </a></li>
-                    </ul>
+            </div>
+        </div>
+        <!-- sign in alert -->
+        <div class="container">
+            <div class="singin-alert mt-4 mb-3  d-flex align-items-start justify-content-between mt-5 mb-4">
+                <div class="flex-1 signin-alert-box pt-2">
+                    <h3>
+                        لم تقم بتسجيل الدخول
+                    </h3>
+                    <p class="text">
+                        سجل الان في منصة النهر الجاري لبدء التعلم ومتابعة تقدمك وجمع النقاط والدخول في
+                    المنافسات
+                    , بعد
+                    التسجيل
+                    ستحصل علي شهادة إلكترونية بالموضوعات التي تتعلمها
+                    </p>
+                    <div class="d-flex align-items-center gap-3">
+                        <button role="button" class="colored-btn btn d-flex align-items-center gap-2">
+                            <i class="fa-solid fa-arrow-right-to-bracket btnIcon"></i>
+                            <span>
+                                تسجيل الدخول
+                            </span>
+                        </button>
+                        <button role="button" class="outline-btn btn d-flex align-items-center gap-2">
+                            <i class="fa-solid fa-user btnIcon"></i>
+                            <span>حساب جديد</span>
+                        </button>
+                    </div>
                 </div>
-                <div class="d-flex align-items-center gap-2 text-muted">
-                    <span>En</span>
-                    <a href="" class="person-icon ">
-                        <img width="23" src="./assets/images/person.png" alt="">
+                <!-- close -->
+                <figure class="mb-0 d-flex align-items-center close justify-content-end">
+                    <img
+                        src="./assets/images/icon/close.svg"
+                        alt="close"
+                        class=" cursor-pointer "
+                        role="button"
+                    >
+                </figure>
+            </div>
+        </div>
+        <!-- endsign in alert -->
+        <div class="container">
+            <div class="singin-alert mt-4 mb-3 d-grid gap-3 gap-md-0 d-md-flex align-items-md-center justify-content-between mt-5 mb-4">
+                <div class="col-md-6 welcome d-flex gap-2 align-items-center">
+                    <figure>
+                        <img src="./assets/images/homelogo.png" alt="">
+                    </figure>
+                    <div class="d-grid">
+                        <h2 class="fw-bold">أهلا بك عبدالله</h2>
+                        <p>مرحبا بك مجددا في منصة النهر الجاري</p>
+                    </div>
+                </div>
+                <div class="col-md-4 info_card d-grid gap-3">
+                    <p>
+                        تم إطلاق منصة النهر الجاري بالعديد من اللغات
+                    </p>
+                    <a href="">
+                        تعرف علي الجديد
                     </a>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- sign in alert -->
-    <div class="container">
-        <div class="singin-alert mt-4 mb-3  d-flex align-items-start justify-content-between mt-5 mb-4">
-            <div class="flex-1 signin-alert-box pt-2">
-                <h3>لم تقم بتسجيل الدخول
-                </h3>
-                <p class="text">سجل الان في منصة النهر الجاري لبدء التعلم ومتابعة تقدمك وجمع النقاط والدخول في
-                    المنافسات
-                    , بعد
-                    التسجيل
-                    ستحصل علي شهادة إلكترونية بالموضوعات التي تتعلمها</p>
-                <div class="d-flex align-items-center gap-3">
-                    <button role="button" class="colored-btn btn d-flex align-items-center gap-2">
-                        <i class="fa-solid fa-arrow-right-to-bracket btnIcon"></i>
-                        <span>تسجيل الدخول
-                        </span>
-                    </button>
-                    <button role="button" class="outline-btn btn d-flex align-items-center gap-2">
-                        <i class="fa-solid fa-user btnIcon"></i>
-                        <span>حساب جديد </span>
-                    </button>
+        <div class="container">
+            <div class=" d-grid d-lg-flex gap-1">
+                <div class=" col-lg-8 singin-alert d-flex flex-wrap gap-3 gap-lg-0 d-flex align-items-center justify-content-between mt-2 mb-4">
+                    <div class="item">
+                        <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
+                            <img src="./assets/images/points.png" alt="analytics" class="img-fulid">
+                            <strong class="fs-25 fw-bold">
+                                125
+                            </strong>
+                            <span class="text-gray text-18 fw-bold">
+                                عدد نقاطتك
+                            </span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
+                            <img src="./assets/images/orders.png" alt="analytics" class="img-fulid">
+                            <strong class="fs-25 fw-bold">
+                                53
+                            </strong>
+                            <span class="text-gray text-18 fw-bold">
+                                ترتيبك
+                            </span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
+                            <img src="./assets/images/lessons.png" alt="analytics" class="img-fulid">
+                            <strong class="fs-25 fw-bold">
+                                15 %
+                            </strong>
+                            <span class="text-gray text-18 fw-bold">
+                                إتمامك للدروس
+                            </span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
+                            <img src="./assets/images/rewards.png" alt="analytics" class="img-fulid">
+                            <strong class="fs-25 fw-bold">
+                                5
+                            </strong>
+                            <span class="text-gray text-18 fw-bold">
+                                أوسمتك
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 singin-alert d-lg-grid gap-3 gap-lg-0 align-items-md-center justify-content-between mt-2 mb-4 p-lg-0">
+                    <p class="p-2">
+                        قم بدعوة أصدقائك للتسجيل واحصل علي 50 نقطة عن كل تسجيل من خلال الرابط الخاص بك
+                    </p>
+                    <div class="d-flex  border-top pt-3">
+                        <div class="d-flex  w-100 gap-2 justify-content-around align-items-center">
+                            <i class="fa-brands fa-youtube fs-3 text-muted"></i>
+                            <i class="fa-brands fa-twitter fs-3 text-muted"></i>
+                            <i class="fa-brands fa-facebook-f fs-3 text-muted"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- close -->
-            <figure class="mb-0 d-flex align-items-center close justify-content-end"><img
-                    src="./assets/images/icon/close.svg" alt="close" class=" cursor-pointer " role="button">
-            </figure>
         </div>
-    </div>
-    <!-- endsign in alert -->
-    <!-- banner -->
-    <div class="home_banner">
-        <div class="container">
+        <!-- banner -->
+        <div class="home_banner">
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="carousel-caption d-md-block">
                             <h2 class="fw-bold  main_title">
                                 تعلم .... استكشف
-
                             </h2>
                             <h2 class="fw-bold text-white">
-                                أفضل الدورات التدريبية</h2>
-                            <p class="text-white">لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور
+                                أفضل الدورات التدريبية
+                            </h2>
+                            <p class="text-white">
+                                لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور
                                 طريقه وضع النصوص
                                 بالتصاميم سواء كانت تصاميم مطبوعه … بروشور او فلاير على سبيل المثال … او نماذج مواقع
                                 انترنت …
@@ -166,11 +285,12 @@
                         <div class="carousel-caption d-block">
                             <h2 class="fw-bold  main_title">
                                 تعلم .... استكشف
-
                             </h2>
                             <h2 class="fw-bold text-white">
-                                أفضل الدورات التدريبية</h2>
-                            <p class="text-white">لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور
+                                أفضل الدورات التدريبية
+                            </h2>
+                            <p class="text-white">
+                                لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور
                                 طريقه وضع النصوص
                                 بالتصاميم سواء كانت تصاميم مطبوعه … بروشور او فلاير على سبيل المثال … او نماذج مواقع
                                 انترنت …
@@ -182,115 +302,137 @@
                         <div class="carousel-caption d-block">
                             <h2 class="fw-bold  main_title">
                                 تعلم .... استكشف
-
                             </h2>
                             <h2 class="fw-bold text-white">
-                                أفضل الدورات التدريبية</h2>
-                            <p class="text-white">لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور
+                                أفضل الدورات التدريبية
+                            </h2>
+                            <p class="text-white">
+                                لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور
                                 طريقه وضع النصوص
                                 بالتصاميم سواء كانت تصاميم مطبوعه … بروشور او فلاير على سبيل المثال … او نماذج مواقع
                                 انترنت …
                             </p>
                         </div>
                         <img src="./assets/images/homebanner.png" class="d-block w-100" alt="...">
-
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="prev">
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExample"
+                    data-bs-slide="prev"
+                >
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="next">
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExample"
+                    data-bs-slide="next"
+                >
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
         </div>
-
-    </div>
-
-    <div
-        class="main-department home_slider  abs_banner_slider card container bg-white  wow animate__animated animate__fadeInUp">
         <div class="container">
-            <div class="row align-items-center">
-
-                <div class="col-sm-12 col-lg-12">
-                    <div class="home-slider">
-                        <div class="slider-item">
-                            <a href="" class="department-card d-grid gap-2 align-items-center">
-                                <div class="card-icon dep-color-1">
-                                    <img src="./assets/images/dep1.png" alt="">
+            <div class="px-2">
+                <div class="main-department home_slider   abs_banner_slider card container bg-white  wow animate__animated animate__fadeInUp">
+                    <div class="row align-items-center">
+                        <div class="col-sm-12 col-lg-12">
+                            <div class="home-slider">
+                                <div class="slider-item">
+                                    <a href="" class="d-grid gap-3 align-items-center">
+                                        <div class="d-grid justify-content-center ">
+                                            <img src="./assets/images/businessman-giving-m.png" alt="">
+                                        </div>
+                                        <span class="fw-bold text-center text-black">احاديث</span>
+                                    </a>
                                 </div>
-                                <span class="fw-bold">احاديث</span>
-                            </a>
-                        </div>
-                        <div class="slider-item">
-                            <a href="" class="department-card d-grid gap-2 align-items-center">
-                                <div class="card-icon dep-color-1">
-                                    <img src="./assets/images/dep1.png" alt="">
+                                <div class="slider-item">
+                                    <a href="" class="d-grid gap-3 align-items-center">
+                                        <div class="d-grid justify-content-center ">
+                                            <img src="./assets/images/businessman-giving-m.png" alt="">
+                                        </div>
+                                        <span class="fw-bold text-center text-black">احاديث</span>
+                                    </a>
                                 </div>
-                                <span class="fw-bold">احاديث</span>
-                            </a>
-                        </div>
-                        <div class="slider-item">
-                            <a href="" class="department-card d-grid gap-2 align-items-center">
-                                <div class="card-icon dep-color-1">
-                                    <img src="./assets/images/dep1.png" alt="">
+                                <div class="slider-item">
+                                    <a href="" class="d-grid gap-3 align-items-center">
+                                        <div class="d-grid justify-content-center ">
+                                            <img src="./assets/images/businessman-giving-m.png" alt="">
+                                        </div>
+                                        <span class="fw-bold text-center text-black">احاديث</span>
+                                    </a>
                                 </div>
-                                <span class="fw-bold">احاديث</span>
-                            </a>
-                        </div>
-                        <div class="slider-item">
-                            <a href="" class="department-card d-grid gap-2 align-items-center">
-                                <div class="card-icon dep-color-1">
-                                    <img src="./assets/images/dep1.png" alt="">
+                                <div class="slider-item">
+                                    <a href="" class="d-grid gap-3 align-items-center">
+                                        <div class="d-grid justify-content-center ">
+                                            <img src="./assets/images/businessman-giving-m.png" alt="">
+                                        </div>
+                                        <span class="fw-bold text-center text-black">احاديث</span>
+                                    </a>
                                 </div>
-                                <span class="fw-bold">احاديث</span>
-                            </a>
-                        </div>
-                        <div class="slider-item">
-                            <a href="" class="department-card d-grid gap-2 align-items-center">
-                                <div class="card-icon dep-color-1">
-                                    <img src="./assets/images/dep1.png" alt="">
+                                <div class="slider-item">
+                                    <a href="" class="d-grid gap-3 align-items-center">
+                                        <div class="d-grid justify-content-center ">
+                                            <img src="./assets/images/businessman-giving-m.png" alt="">
+                                        </div>
+                                        <span class="fw-bold text-center text-black">احاديث</span>
+                                    </a>
                                 </div>
-                                <span class="fw-bold">احاديث</span>
-                            </a>
+                                <div class="slider-item">
+                                    <a href="" class="d-grid gap-3 align-items-center">
+                                        <div class="d-grid justify-content-center">
+                                            <img src="./assets/images/businessman-giving-m.png" alt="">
+                                        </div>
+                                        <span class="fw-bold text-center text-black">احاديث</span>
+                                    </a>
+                                </div>
+                                <div class="slider-item">
+                                    <a href="" class="d-grid gap-3 align-items-center">
+                                        <div class="d-grid justify-content-center">
+                                            <img src="./assets/images/businessman-giving-m.png" alt="">
+                                        </div>
+                                        <span class="fw-bold text-center text-black">احاديث</span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="main-department bg-white home_slider   wow animate__animated animate__fadeInUp px-3 px-md-5">
-        <div class="container">
-            <div class="row align-items-center  border-light-gray  radius-11 bg-white sliderHomeCard">
-                <div class="d-flex mb-3 align-items-center justify-content-between gap-2">
-                    <h3 class="text-cyan mb-0 fs-22 fw-bold">أكثر الدورات اشتراكا
-                    </h3>
-                    <a href="#" class="text-gold showAll">
-                        <span class="fs-20">
-                            مشاهدة الكل
-                        </span>
-                        <i class="fa-solid fa-chevron-left text-gold"></i>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-lg-12">
-                    <div class="home-slider-card">
-                        <div class="slider-item me-3">
-                            <a href="" class=" d-grid align-items-center">
-                                <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
-                                    <figure class="position-relative">
-                                        <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
-                                        <span
-                                            class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
-                                    </figure>
-                                    <div class="card-body">
-                                        <h5 class="card-title text-black">وَقَفاتٌ إيمانيَّةٌ مع الرِّحْلات
-                                        </h5>
-                                        <p class="card-text articleText text-13 ">لوريم ايبسوم هو نموذج افتراضي
+        <div class="main-department bg-white home_slider   wow animate__animated animate__fadeInUp px-3 px-md-5">
+            <div class="container">
+                <div class="row align-items-center  border-light-gray  radius-11 bg-white sliderHomeCard">
+                    <div class="d-flex mb-3 align-items-center justify-content-between gap-2">
+                        <h3 class="text-cyan mb-0 fs-22 fw-bold">
+                            أكثر الدورات اشتراكا
+                        </h3>
+                        <a href="#" class="text-gold showAll">
+                            <span class="fs-20">
+                                مشاهدة الكل
+                            </span>
+                            <i class="fa-solid fa-chevron-left text-gold"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-lg-12">
+                        <div class="home-slider-card">
+                            <div class="slider-item me-3">
+                                <a href="" class=" d-grid align-items-center">
+                                    <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
+                                        <figure class="position-relative">
+                                            <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
+                                            <span class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
+                                        </figure>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-black">
+                                                وَقَفاتٌ إيمانيَّةٌ مع الرِّحْلات
+                                            </h5>
+                                            <p class="card-text articleText text-13 ">
+                                                لوريم ايبسوم هو نموذج افتراضي
                                             يوضع في
                                             التصاميم
                                             لتعرض على
@@ -303,25 +445,24 @@
                                             التجريبية
                                             بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم
                                             الاساسي.
-                                        </p>
-
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="slider-item me-3">
-                            <a href="" class=" d-grid align-items-center">
-                                <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
-                                    <figure class="position-relative">
-                                        <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
-                                        <span
-                                            class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
-                                    </figure>
-                                    <div class="card-body">
-                                        <h5 class="card-title text-black">وَقَفاتٌ إيمانيَّةٌ مع الرِّحْلات
-                                        </h5>
-                                        <p class="card-text articleText text-13 ">لوريم ايبسوم هو نموذج افتراضي
+                                </a>
+                            </div>
+                            <div class="slider-item me-3">
+                                <a href="" class=" d-grid align-items-center">
+                                    <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
+                                        <figure class="position-relative">
+                                            <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
+                                            <span class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
+                                        </figure>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-black">
+                                                وَقَفاتٌ إيمانيَّةٌ مع الرِّحْلات
+                                            </h5>
+                                            <p class="card-text articleText text-13 ">
+                                                لوريم ايبسوم هو نموذج افتراضي
                                             يوضع في
                                             التصاميم
                                             لتعرض على
@@ -334,24 +475,24 @@
                                             التجريبية
                                             بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم
                                             الاساسي.
-                                        </p>
-
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="slider-item me-3">
-                            <a href="" class=" d-grid align-items-center">
-                                <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
-                                    <figure class="position-relative">
-                                        <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
-                                        <span
-                                            class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
-                                    </figure>
-                                    <div class="card-body">
-                                        <h5 class="card-title text-black">وَقَفاتٌ إيمانيَّةٌ مع الرِّحْلات
-                                        </h5>
-                                        <p class="card-text articleText text-13 ">لوريم ايبسوم هو نموذج افتراضي
+                                </a>
+                            </div>
+                            <div class="slider-item me-3">
+                                <a href="" class=" d-grid align-items-center">
+                                    <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
+                                        <figure class="position-relative">
+                                            <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
+                                            <span class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
+                                        </figure>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-black">
+                                                وَقَفاتٌ إيمانيَّةٌ مع الرِّحْلات
+                                            </h5>
+                                            <p class="card-text articleText text-13 ">
+                                                لوريم ايبسوم هو نموذج افتراضي
                                             يوضع في
                                             التصاميم
                                             لتعرض على
@@ -364,24 +505,24 @@
                                             التجريبية
                                             بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم
                                             الاساسي.
-                                        </p>
-
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="slider-item me-3">
-                            <a href="" class=" d-grid align-items-center">
-                                <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
-                                    <figure class="position-relative">
-                                        <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
-                                        <span
-                                            class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
-                                    </figure>
-                                    <div class="card-body">
-                                        <h5 class="card-title text-black">وَقَفاتٌ إيمانيَّةٌ مع الرِّحْلات
-                                        </h5>
-                                        <p class="card-text articleText text-13 ">لوريم ايبسوم هو نموذج افتراضي
+                                </a>
+                            </div>
+                            <div class="slider-item me-3">
+                                <a href="" class=" d-grid align-items-center">
+                                    <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
+                                        <figure class="position-relative">
+                                            <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
+                                            <span class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
+                                        </figure>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-black">
+                                                وَقَفاتٌ إيمانيَّةٌ مع الرِّحْلات
+                                            </h5>
+                                            <p class="card-text articleText text-13 ">
+                                                لوريم ايبسوم هو نموذج افتراضي
                                             يوضع في
                                             التصاميم
                                             لتعرض على
@@ -394,24 +535,24 @@
                                             التجريبية
                                             بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم
                                             الاساسي.
-                                        </p>
-
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="slider-item me-3">
-                            <a href="" class=" d-grid align-items-center">
-                                <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
-                                    <figure class="position-relative">
-                                        <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
-                                        <span
-                                            class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
-                                    </figure>
-                                    <div class="card-body">
-                                        <h5 class="card-title text-black">وَقَفاتٌ إيمانيَّةٌ مع الرِّحْلات
-                                        </h5>
-                                        <p class="card-text articleText text-13 ">لوريم ايبسوم هو نموذج افتراضي
+                                </a>
+                            </div>
+                            <div class="slider-item me-3">
+                                <a href="" class=" d-grid align-items-center">
+                                    <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
+                                        <figure class="position-relative">
+                                            <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
+                                            <span class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
+                                        </figure>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-black">
+                                                وَقَفاتٌ إيمانيَّةٌ مع الرِّحْلات
+                                            </h5>
+                                            <p class="card-text articleText text-13 ">
+                                                لوريم ايبسوم هو نموذج افتراضي
                                             يوضع في
                                             التصاميم
                                             لتعرض على
@@ -424,51 +565,46 @@
                                             التجريبية
                                             بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم
                                             الاساسي.
-                                        </p>
-
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
                         </div>
-
-
-
-
-
-
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- recent cources -->
-    <div class="main-department bg-white home_slider   wow animate__animated animate__fadeInUp px-3 px-md-5">
-        <div class="container">
-            <div class="row align-items-center  border-light-gray  radius-11 bg-white sliderHomeCard">
-                <div class="d-flex align-items-center mb-3 justify-content-between gap-2">
-                    <h3 class="text-cyan fs-22 mb-0  fw-bold">أكثر الدورات اشتراكا
-                    </h3>
-                    <a href="#" class="text-gold showAll">
-                        <span class="fs-20">
-                            مشاهدة الكل
-                        </span>
-                        <i class="fa-solid fa-chevron-left text-gold"></i>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-lg-12">
-                    <div class="home-slider-card">
-                        <div class="slider-item me-3">
-                            <a href="" class=" d-grid align-items-center">
-                                <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
-                                    <figure class="position-relative">
-                                        <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
-                                        <span
-                                            class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
-                                    </figure>
-                                    <div class="card-body">
-                                        <h5 class="card-title text-black">وَقَفاتٌ إيمانيَّةٌ مع الرِّحْلات
-                                        </h5>
-                                        <p class="card-text articleText text-13 ">لوريم ايبسوم هو نموذج افتراضي
+        <!-- recent cources -->
+        <div class="main-department bg-white home_slider   wow animate__animated animate__fadeInUp px-3 px-md-5">
+            <div class="container">
+                <div class="row align-items-center  border-light-gray  radius-11 bg-white sliderHomeCard">
+                    <div class="d-flex align-items-center mb-3 justify-content-between gap-2">
+                        <h3 class="text-cyan fs-22 mb-0  fw-bold">
+                            أحدث الدورات
+                        </h3>
+                        <a href="#" class="text-gold showAll">
+                            <span class="fs-20">
+                                مشاهدة الكل
+                            </span>
+                            <i class="fa-solid fa-chevron-left text-gold"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-lg-12">
+                        <div class="home-slider-card">
+                            <div class="slider-item me-3">
+                                <a href="" class=" d-grid align-items-center">
+                                    <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
+                                        <figure class="position-relative">
+                                            <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
+                                            <span class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
+                                        </figure>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-black">
+                                                وَقَفاتٌ إيمانيَّةٌ مع الرِّحْلات
+                                            </h5>
+                                            <p class="card-text articleText text-13 ">
+                                                لوريم ايبسوم هو نموذج افتراضي
                                             يوضع في
                                             التصاميم
                                             لتعرض على
@@ -481,25 +617,24 @@
                                             التجريبية
                                             بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم
                                             الاساسي.
-                                        </p>
-
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="slider-item me-3">
-                            <a href="" class=" d-grid align-items-center">
-                                <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
-                                    <figure class="position-relative">
-                                        <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
-                                        <span
-                                            class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
-                                    </figure>
-                                    <div class="card-body">
-                                        <h5 class="card-title text-black">وَقَفاتٌ إيمانيَّةٌ مع الرِّحْلات
-                                        </h5>
-                                        <p class="card-text articleText text-13 ">لوريم ايبسوم هو نموذج افتراضي
+                                </a>
+                            </div>
+                            <div class="slider-item me-3">
+                                <a href="" class=" d-grid align-items-center">
+                                    <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
+                                        <figure class="position-relative">
+                                            <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
+                                            <span class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
+                                        </figure>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-black">
+                                                وَقَفاتٌ إيمانيَّةٌ مع الرِّحْلات
+                                            </h5>
+                                            <p class="card-text articleText text-13 ">
+                                                لوريم ايبسوم هو نموذج افتراضي
                                             يوضع في
                                             التصاميم
                                             لتعرض على
@@ -512,24 +647,24 @@
                                             التجريبية
                                             بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم
                                             الاساسي.
-                                        </p>
-
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="slider-item me-3">
-                            <a href="" class=" d-grid align-items-center">
-                                <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
-                                    <figure class="position-relative">
-                                        <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
-                                        <span
-                                            class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
-                                    </figure>
-                                    <div class="card-body">
-                                        <h5 class="card-title text-black">وَقَفاتٌ إيمانيَّةٌ مع الرِّحْلات
-                                        </h5>
-                                        <p class="card-text articleText text-13 ">لوريم ايبسوم هو نموذج افتراضي
+                                </a>
+                            </div>
+                            <div class="slider-item me-3">
+                                <a href="" class=" d-grid align-items-center">
+                                    <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
+                                        <figure class="position-relative">
+                                            <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
+                                            <span class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
+                                        </figure>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-black">
+                                                وَقَفاتٌ إيمانيَّةٌ مع الرِّحْلات
+                                            </h5>
+                                            <p class="card-text articleText text-13 ">
+                                                لوريم ايبسوم هو نموذج افتراضي
                                             يوضع في
                                             التصاميم
                                             لتعرض على
@@ -542,24 +677,24 @@
                                             التجريبية
                                             بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم
                                             الاساسي.
-                                        </p>
-
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="slider-item me-3">
-                            <a href="" class=" d-grid align-items-center">
-                                <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
-                                    <figure class="position-relative">
-                                        <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
-                                        <span
-                                            class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
-                                    </figure>
-                                    <div class="card-body">
-                                        <h5 class="card-title text-black">وَقَفاتٌ إيمانيَّةٌ مع الرِّحْلات
-                                        </h5>
-                                        <p class="card-text articleText text-13 ">لوريم ايبسوم هو نموذج افتراضي
+                                </a>
+                            </div>
+                            <div class="slider-item me-3">
+                                <a href="" class=" d-grid align-items-center">
+                                    <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
+                                        <figure class="position-relative">
+                                            <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
+                                            <span class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
+                                        </figure>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-black">
+                                                وَقَفاتٌ إيمانيَّةٌ مع الرِّحْلات
+                                            </h5>
+                                            <p class="card-text articleText text-13 ">
+                                                لوريم ايبسوم هو نموذج افتراضي
                                             يوضع في
                                             التصاميم
                                             لتعرض على
@@ -572,24 +707,24 @@
                                             التجريبية
                                             بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم
                                             الاساسي.
-                                        </p>
-
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="slider-item me-3">
-                            <a href="" class=" d-grid align-items-center">
-                                <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
-                                    <figure class="position-relative">
-                                        <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
-                                        <span
-                                            class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
-                                    </figure>
-                                    <div class="card-body">
-                                        <h5 class="card-title text-black">وَقَفاتٌ إيمانيَّةٌ مع الرِّحْلات
-                                        </h5>
-                                        <p class="card-text articleText text-13 ">لوريم ايبسوم هو نموذج افتراضي
+                                </a>
+                            </div>
+                            <div class="slider-item me-3">
+                                <a href="" class=" d-grid align-items-center">
+                                    <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
+                                        <figure class="position-relative">
+                                            <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
+                                            <span class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
+                                        </figure>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-black">
+                                                وَقَفاتٌ إيمانيَّةٌ مع الرِّحْلات
+                                            </h5>
+                                            <p class="card-text articleText text-13 ">
+                                                لوريم ايبسوم هو نموذج افتراضي
                                             يوضع في
                                             التصاميم
                                             لتعرض على
@@ -602,149 +737,126 @@
                                             التجريبية
                                             بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم
                                             الاساسي.
-                                        </p>
-
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
                         </div>
-
-
-
-
-
-
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- end recent cources -->
-    <!-- start article section -->
-    <div class="main-department bg-white home_slider   wow animate__animated animate__fadeInUp px-3 px-md-5">
-        <div class="container">
-            <div class="row align-items-center  border-light-gray  radius-11 bg-white sliderHomeCard">
-                <div class="d-flex align-items-center mb-3 justify-content-between gap-2">
-                    <h3 class="text-cyan fs-22 mb-0  fw-bold"> أقسام المقالات
-
-                    </h3>
-                    <a href="#" class="text-gold showAll">
-                        <span class="fs-20">
-                            مشاهدة الكل
-                        </span>
-                        <i class="fa-solid fa-chevron-left text-gold"></i>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-lg-12">
-                    <div class="home-slider-article">
-                        <div class="slider-item me-3">
-                            <a href="" class=" d-grid align-items-center">
-                                <div class="card mb-4 sliderCard  border-0 article-category-content ">
-                                    <figure class="position-relative mb-0">
-                                        <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
-                                        <span
-                                            class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
-                                    </figure>
-
-                                </div>
-                            </a>
+        <!-- end recent cources -->
+        <!-- start article section -->
+        <div class="main-department bg-white home_slider   wow animate__animated animate__fadeInUp px-3 px-md-5">
+            <div class="container">
+                <div class="row align-items-center  border-light-gray  radius-11 bg-white sliderHomeCard">
+                    <div class="d-flex align-items-center mb-3 justify-content-between gap-2">
+                        <h3 class="text-cyan fs-22 mb-0  fw-bold">
+                            أقسام المقالات
+                        </h3>
+                        <a href="#" class="text-gold showAll">
+                            <span class="fs-20">
+                                مشاهدة الكل
+                            </span>
+                            <i class="fa-solid fa-chevron-left text-gold"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-lg-12">
+                        <div class="home-slider-article">
+                            <div class="slider-item me-3">
+                                <a href="" class=" d-grid align-items-center">
+                                    <div class="card mb-4 sliderCard  border-0 article-category-content ">
+                                        <figure class="position-relative mb-0">
+                                            <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
+                                            <span class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
+                                        </figure>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="slider-item me-3">
+                                <a href="" class=" d-grid align-items-center">
+                                    <div class="card mb-4 sliderCard  border-0 article-category-content ">
+                                        <figure class="position-relative mb-0">
+                                            <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
+                                            <span class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
+                                        </figure>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="slider-item me-3">
+                                <a href="" class=" d-grid align-items-center">
+                                    <div class="card mb-4 sliderCard  border-0 article-category-content ">
+                                        <figure class="position-relative mb-0">
+                                            <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
+                                            <span class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
+                                        </figure>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="slider-item me-3">
+                                <a href="" class=" d-grid align-items-center">
+                                    <div class="card mb-4 sliderCard  border-0 article-category-content ">
+                                        <figure class="position-relative mb-0">
+                                            <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
+                                            <span class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
+                                        </figure>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="slider-item me-3">
+                                <a href="" class=" d-grid align-items-center">
+                                    <div class="card mb-4 sliderCard  border-0 article-category-content ">
+                                        <figure class="position-relative mb-0">
+                                            <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
+                                            <span class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
+                                        </figure>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="slider-item me-3">
+                                <a href="" class=" d-grid align-items-center">
+                                    <div class="card mb-4 sliderCard  border-0 article-category-content ">
+                                        <figure class="position-relative mb-0">
+                                            <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
+                                            <span class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
+                                        </figure>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                        <div class="slider-item me-3">
-                            <a href="" class=" d-grid align-items-center">
-                                <div class="card mb-4 sliderCard  border-0 article-category-content ">
-                                    <figure class="position-relative mb-0">
-                                        <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
-                                        <span
-                                            class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
-                                    </figure>
-
-                                </div>
-                            </a>
-                        </div>
-                        <div class="slider-item me-3">
-                            <a href="" class=" d-grid align-items-center">
-                                <div class="card mb-4 sliderCard  border-0 article-category-content ">
-                                    <figure class="position-relative mb-0">
-                                        <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
-                                        <span
-                                            class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
-                                    </figure>
-
-                                </div>
-                            </a>
-                        </div>
-                        <div class="slider-item me-3">
-                            <a href="" class=" d-grid align-items-center">
-                                <div class="card mb-4 sliderCard  border-0 article-category-content ">
-                                    <figure class="position-relative mb-0">
-                                        <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
-                                        <span
-                                            class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
-                                    </figure>
-
-                                </div>
-                            </a>
-                        </div>
-                        <div class="slider-item me-3">
-                            <a href="" class=" d-grid align-items-center">
-                                <div class="card mb-4 sliderCard  border-0 article-category-content ">
-                                    <figure class="position-relative mb-0">
-                                        <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
-                                        <span
-                                            class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
-                                    </figure>
-
-                                </div>
-                            </a>
-                        </div>
-                        <div class="slider-item me-3">
-                            <a href="" class=" d-grid align-items-center">
-                                <div class="card mb-4 sliderCard  border-0 article-category-content ">
-                                    <figure class="position-relative mb-0">
-                                        <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
-                                        <span
-                                            class="position-absolute left-0  badge-cyan text-16 fw-normal">العبادات</span>
-                                    </figure>
-
-                                </div>
-                            </a>
-                        </div>
-
-
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- end article section -->
-    <!-- recent posts -->
-    <div class="main-department bg-white home_slider   wow animate__animated animate__fadeInUp px-3 px-md-5">
-        <div class="container">
-            <div class="row align-items-center  border-light-gray  radius-11 bg-white sliderHomeCard">
-                <div class="d-flex align-items-center mb-3 justify-content-between gap-2">
-                    <h3 class="text-cyan fs-22 mb-0  fw-bold">أحدث المقالات
-
-                    </h3>
-                    <a href="#" class="text-gold showAll">
-                        <span class="fs-20">
-                            مشاهدة الكل
-
-                        </span>
-                        <i class="fa-solid fa-chevron-left text-gold"></i>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-lg-12">
-                    <div class="home-slider-card">
-                        <div class="slider-item me-3">
-                            <a href="" class=" d-grid align-items-center">
-                                <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
-                                    <figure class="position-relative">
-                                        <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
-
-                                    </figure>
-                                    <div class="card-body">
-
-                                        <p class="card-text articleText fs-18 ">لوريم ايبسوم هو نموذج افتراضي
+        <!-- end article section -->
+        <!-- recent posts -->
+        <div class="main-department bg-white home_slider   wow animate__animated animate__fadeInUp px-3 px-md-5">
+            <div class="container">
+                <div class="row align-items-center  border-light-gray  radius-11 bg-white sliderHomeCard">
+                    <div class="d-flex align-items-center mb-3 justify-content-between gap-2">
+                        <h3 class="text-cyan fs-22 mb-0  fw-bold">
+                            أحدث المقالات
+                        </h3>
+                        <a href="#" class="text-gold showAll">
+                            <span class="fs-20">
+                                مشاهدة الكل
+                            </span>
+                            <i class="fa-solid fa-chevron-left text-gold"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-lg-12">
+                        <div class="home-slider-card">
+                            <div class="slider-item me-3">
+                                <a href="" class=" d-grid align-items-center">
+                                    <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
+                                        <figure class="position-relative">
+                                            <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
+                                        </figure>
+                                        <div class="card-body">
+                                            <p class="card-text articleText fs-18 ">
+                                                لوريم ايبسوم هو نموذج افتراضي
                                             يوضع في
                                             التصاميم
                                             لتعرض على
@@ -757,22 +869,20 @@
                                             التجريبية
                                             بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم
                                             الاساسي.
-                                        </p>
-
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="slider-item me-3">
-                            <a href="" class=" d-grid align-items-center">
-                                <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
-                                    <figure class="position-relative">
-                                        <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
-
-                                    </figure>
-                                    <div class="card-body">
-
-                                        <p class="card-text articleText fs-18 ">لوريم ايبسوم هو نموذج افتراضي
+                                </a>
+                            </div>
+                            <div class="slider-item me-3">
+                                <a href="" class=" d-grid align-items-center">
+                                    <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
+                                        <figure class="position-relative">
+                                            <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
+                                        </figure>
+                                        <div class="card-body">
+                                            <p class="card-text articleText fs-18 ">
+                                                لوريم ايبسوم هو نموذج افتراضي
                                             يوضع في
                                             التصاميم
                                             لتعرض على
@@ -785,22 +895,20 @@
                                             التجريبية
                                             بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم
                                             الاساسي.
-                                        </p>
-
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="slider-item me-3">
-                            <a href="" class=" d-grid align-items-center">
-                                <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
-                                    <figure class="position-relative">
-                                        <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
-
-                                    </figure>
-                                    <div class="card-body">
-
-                                        <p class="card-text articleText fs-18 ">لوريم ايبسوم هو نموذج افتراضي
+                                </a>
+                            </div>
+                            <div class="slider-item me-3">
+                                <a href="" class=" d-grid align-items-center">
+                                    <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
+                                        <figure class="position-relative">
+                                            <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
+                                        </figure>
+                                        <div class="card-body">
+                                            <p class="card-text articleText fs-18 ">
+                                                لوريم ايبسوم هو نموذج افتراضي
                                             يوضع في
                                             التصاميم
                                             لتعرض على
@@ -813,22 +921,20 @@
                                             التجريبية
                                             بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم
                                             الاساسي.
-                                        </p>
-
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="slider-item me-3">
-                            <a href="" class=" d-grid align-items-center">
-                                <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
-                                    <figure class="position-relative">
-                                        <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
-
-                                    </figure>
-                                    <div class="card-body">
-
-                                        <p class="card-text articleText fs-18 ">لوريم ايبسوم هو نموذج افتراضي
+                                </a>
+                            </div>
+                            <div class="slider-item me-3">
+                                <a href="" class=" d-grid align-items-center">
+                                    <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
+                                        <figure class="position-relative">
+                                            <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
+                                        </figure>
+                                        <div class="card-body">
+                                            <p class="card-text articleText fs-18 ">
+                                                لوريم ايبسوم هو نموذج افتراضي
                                             يوضع في
                                             التصاميم
                                             لتعرض على
@@ -841,22 +947,20 @@
                                             التجريبية
                                             بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم
                                             الاساسي.
-                                        </p>
-
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="slider-item me-3">
-                            <a href="" class=" d-grid align-items-center">
-                                <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
-                                    <figure class="position-relative">
-                                        <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
-
-                                    </figure>
-                                    <div class="card-body">
-
-                                        <p class="card-text articleText fs-18 ">لوريم ايبسوم هو نموذج افتراضي
+                                </a>
+                            </div>
+                            <div class="slider-item me-3">
+                                <a href="" class=" d-grid align-items-center">
+                                    <div class="card mb-4 sliderCard bg-white p-2 border-0 article-category-content ">
+                                        <figure class="position-relative">
+                                            <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
+                                        </figure>
+                                        <div class="card-body">
+                                            <p class="card-text articleText fs-18 ">
+                                                لوريم ايبسوم هو نموذج افتراضي
                                             يوضع في
                                             التصاميم
                                             لتعرض على
@@ -869,101 +973,164 @@
                                             التجريبية
                                             بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم
                                             الاساسي.
-                                        </p>
-
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
                         </div>
-
-
-
-
-
-
-
-
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- end recent posts -->
-    <footer class="footer">
-        <div class="footer-img">
-            <img src="./assets/images/footer-img.webp" alt="">
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-5">
-                    <div class="footer_logo_content">
-                        <div class="footer_logo">
-                            <img src="./assets/images/logo.png" alt="">
+        <!-- end recent posts -->
+        <div class="container p-0">
+            <div class=" singin-alert mt-2 mb-4">
+                <div class="d-grid align-items-center justify-content-center gap-2 my-3">
+                    <img class="mx-auto" src="./assets/images/analytics.png" alt="">
+                    <h2 class="fw-bold main_title">إحصائياتنا</h2>
+                </div>
+                <div class="content d-flex flex-wrap gap-3 gap-lg-0 d-flex align-items-center justify-content-around ">
+                    <div class="item">
+                        <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
+                            <strong class="fs-25 fw-bold">
+                                12512121
+                            </strong>
+                            <span class="text-gray text-18 fw-bold">
+                                مستفيد من خدمة الساجد
+                            </span>
                         </div>
-                        <div class="footer_conten">
-                            <p>“لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+                    </div>
+                    <div class="item">
+                        <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
+                            <strong class="fs-25 fw-semi-bold">
+                                533232323
+                            </strong>
+                            <span class="text-gray text-18 fw-bold">
+                                مستفيد من المصلى
+                            </span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
+                            <strong class="fs-25 fw-semi-bold">
+                                153433443
+                            </strong>
+                            <span class="text-gray text-18 fw-bold">
+                                مستفيد من البرامج الشبابية
+                            </span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
+                            <strong class="fs-25 fw-semi-bold">
+                                52323223
+                            </strong>
+                            <span class="text-gray text-18 fw-bold">
+                                مجموع المستفيدين
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-img">
+                <img src="./assets/images/footer-img.webp" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-5">
+                        <div class="footer_logo_content">
+                            <div class="footer_logo">
+                                <img src="./assets/images/logo.png" alt="">
+                            </div>
+                            <div class="footer_conten">
+                                <p>
+                                    “لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
                                 أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد
                                 أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات . ديواس
-                            </p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-4 col-lg-2">
+                        <div class="footer_links">
+                            <h5>لينكات سريعة</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="">الرئيسية</a>
+                                </li>
+                                <li>
+                                    <a href="">الأقسام الرئيسية</a>
+                                </li>
+                                <li>
+                                    <a href="">اتصل بنا</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col col-md-4 col-lg-2">
+                        <div class="footer_links">
+                            <h5>الدعم</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="">الشروط و الاحكام</a>
+                                </li>
+                                <li>
+                                    <a href="">الاسئلة الشائعة</a>
+                                </li>
+                                <li>
+                                    <a href="">عن الموقع</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex align-items-center">
+                        <div class="footer_follow">
+                            <h5 class="text-center">تابعنا عبر وسائل التواصل الاجتماعي</h5>
+                            <ul class="list-unstyled d-flex align-items-center text-center justify-content-center">
+                                <li>
+                                    <a href="" target="_blank">
+                                        <img src="./assets/images/linked_icon.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <img src="./assets/images/google_icon.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <img src="./assets/images/insta_icon.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <img src="./assets/images/twitter-icon.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <img src="./assets/images/facebook_icon.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col col-md-4 col-lg-2">
-                    <div class="footer_links">
-                        <h5>لينكات سريعة</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li><a href="">الرئيسية</a></li>
-                            <li><a href="">الأقسام الرئيسية</a></li>
-                            <li><a href="">اتصل بنا</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col col-md-4 col-lg-2">
-                    <div class="footer_links">
-                        <h5>الدعم</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li><a href="">الشروط و الاحكام</a></li>
-                            <li><a href="">الاسئلة الشائعة</a></li>
-                            <li><a href="">عن الموقع</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-4 col-lg-3 d-flex align-items-center">
-                    <div class="footer_follow">
-                        <h5 class="text-center">تابعنا عبر وسائل التواصل الاجتماعي</h5>
-                        <ul class="list-unstyled d-flex align-items-center text-center justify-content-center">
-                            <li>
-                                <a href="" target="_blank"><img src="./assets/images/linked_icon.svg" alt="" /></a>
-                            </li>
-                            <li>
-                                <a href="" target="_blank"><img src="./assets/images/google_icon.svg" alt="" /></a>
-                            </li>
-                            <li>
-                                <a href="" target="_blank"><img src="./assets/images/insta_icon.svg" alt="" /></a>
-                            </li>
-                            <li>
-                                <a href="" target="_blank"><img src="./assets/images/twitter-icon.svg" alt="" /></a>
-                            </li>
-                            <li>
-                                <a href="" target="_blank"><img src="./assets/images/facebook_icon.svg" alt="" /></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
             </div>
-        </div>
-    </footer>
-
-    <script src="./assets/js/jquery-3.6.0.min.js"></script>
-    <script src="./assets/js/popper.min.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
-    <script src="./assets/js/jquery.nice-select.min.js"></script>
-    <script src="./assets/js/slick.min.js"></script>
-    <script src="./assets/js/wow.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-    <script src="./assets/js/main.js"></script>
-    <script>
+        </footer>
+        <script src="./assets/js/jquery-3.6.0.min.js"></script>
+        <script src="./assets/js/popper.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+        <script src="./assets/js/jquery.nice-select.min.js"></script>
+        <script src="./assets/js/slick.min.js"></script>
+        <script src="./assets/js/wow.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+        <script src="./assets/js/main.js"></script>
+        <script>
         function truncateText(element, length) {
             let text = element.textContent;
             if (text.length <= length) {
@@ -977,7 +1144,6 @@
             let truncatedText = truncateText(element, 300);
             element.textContent = truncatedText;
         });
-    </script>
-</body>
-
+        </script>
+    </body>
 </html>

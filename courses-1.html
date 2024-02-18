@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
@@ -14,14 +15,17 @@
     <link rel="stylesheet" href="./assets/css/slick-theme.css">
     <link rel="stylesheet" href="./assets/css/animate.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- english styling -->
     <!-- <link rel="stylesheet" href="./assets/css/style-en.css"> -->
-    <title> courses 4</title>
+    <title>courses 1</title>
 </head>
 
 <body>
-
     <div class="splashscreen">
         <div class="loading">
             <div></div>
@@ -114,7 +118,7 @@
     </div>
     <!-- sign in alert -->
     <div class="container">
-        <div class="singin-alert d-flex align-items-start justify-content-between mt-5 mb-4">
+        <div class="singin-alert  mt-4 mb-3 d-flex align-items-start justify-content-between">
             <div class="flex-1 signin-alert-box pt-2">
                 <h3>لم تقم بتسجيل الدخول
                 </h3>
@@ -146,98 +150,140 @@
     <div class="container">
         <div class="special-header text-center my-3 d-flex align-items-center justify-content-center gap-2 ">
             <img src="./assets/images/icon/right-line.png" class="line">
-            <h1 class="fs-25 text-main fw-bold"> الصلاة </h1>
+            <h1 class="fs-25 text-main fw-bold"> العبادات
+            </h1>
             <img src="./assets/images/icon/left-line.png" class="line">
         </div>
     </div>
     <!-- end special header -->
-    <!-- start progress card -->
-    <div class="container">
-        <div class="courses_page_test my-5  px-3 border-light-gray py-3 px-2 radius-11 ">
-            <div class="content d-grid  d-md-flex gap-2 align-items-start">
-                <figure class="main_progress_card_figure m-0">
-                    <img src="./assets/images/cardimg.png" alt="">
-                    <button class="btn main_rounded_btn d-flex me-auto mx-md-auto mt-2"> اختبار تحديد المستوي
-                    </button>
-                </figure>
-                <div class=" col-md-8 d-grid courses_test align-items-center text-center gap-3 ">
-                    <div class="progress_part d-flex align-items-center gap-2">
-                        <span class="text-muted">75%</span>
-                        <div class="progress w-100" role="progressbar" aria-label="Basic example" aria-valuenow="75"
-                            aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar w-75 position-relative">
-                                <img src="./assets/images/progressicon.svg" class="m-auto" alt="svg">
-                            </div>
-                        </div>
-                    </div>
-                    <h2 class="fw-bold fs-20 text-start">
-                        الصلاة هي عماد الدين وهي أهم ما يجب البدء بتعلمه من العبادات، فهي ثاني أركان الدين الإسلامي بعد
-                        الشهادتين ولا يتم
-                        إسلام المرء إلا بأدائها
-                    </h2>
-                    <div class="info d-flex align-items-center gap-2">
-                        <img src="./assets/images/usersicon.png" alt="">
-                        <span class="text-muted font-normal">
-                            200px
+    <!-- start article details -->
+    <div class="article my-5">
+        <div class="container ">
+            <div class="d-flex flex-column flex-md-row align-items-start gap-3 ">
+                <div
+                    class="border-light-gray radius-11 gap-3 py-3 px-2 col-lg-3 col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
+                    <h3 class="text-center fw-bold fs-30">العبادات</h3>
+                    <p class="text-16">
+                        يهدف هذا الفرع إلى تأصيل العبادات وترسيخها، وربط العبادة وأحكامها بالكتاب الكريم والسنة النبوية
+                        المطهرة. ويتناول فقه العبادات أحكام العبادات المكلف بها الإنسان بالتوضيح والتفصيل كما وردت عن
+                        النبي محمد ﷺ وعن صحابته رضي الله عنهم أجمعين.
+
+                    </p>
+                    <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
+                        <img src="./assets/images/article/analytics.png" alt="analytics" class="img-fulid">
+                        <strong class="fs-30 fw-bold">15 %
+                        </strong>
+                        <span class="text-gray text-18 fw-bold">نسبة إتمام دروس العبادات
                         </span>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!-- start progress card -->
 
-    <div class="container ">
-        <div class=" corses_correct_ans_section main_border radius-11 ">
-            <!-- start progress card -->
-            <div class="courses_page_test my-3 border-light-gray py-3 px-2 radius-11 ">
-                <div class="content d-grid  d-md-flex gap-2 align-items-start">
-                    <figure class="main_progress_card_figure m-0">
-                        <img src="./assets/images/cardimg.png" alt="">
-                    </figure>
-                    <div class=" col-md-8 d-grid  courses_test align-items-center text-center gap-3 ">
+                <div class="col-lg-9 col-md-8 col-12 border-light-gray radius-11 p-3">
+                    <!-- header -->
+                    <h3 class="text-gold fs-25 fw-bold">الدورات التعليمية
+                    </h3>
+                    <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-3">
+                        <!-- start article details -->
+                        <a class="col">
+                            <div class="card h-100 bg-white shadow p-2 border-0 article-category-content ">
+                                <img src="./assets/images/article/article-1.png"
+                                    class="card-img-top object-fit-cover object-position-center " alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-black">الطهارة</h5>
+                                    <p class="card-text articleText">لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم
+                                        لتعرض
+                                        على
+                                        العميل ليتصور
+                                        طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه … بروشور او فلاير على سبيل
+                                        المثال
+                                        …
+                                        او نماذج مواقع انترنت … وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا
+                                        النص
+                                        من
+                                        التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم ويقول البعض ان وضع النصوص
+                                        التجريبية
+                                        بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم
+                                        الاساسي.
+                                    </p>
+                                    <div>
+                                        <i class="fa-solid text-main fa-user-group"></i>
+                                        <span class="text-gray fw-normal">200</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="col">
+                            <div class="card h-100 bg-white shadow p-2 border-0 article-category-content ">
+                                <img src="./assets/images/article/article-1.png"
+                                    class="card-img-top object-fit-cover object-position-center " alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-black">الطهارة</h5>
+                                    <p class="card-text articleText">لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم
+                                        لتعرض
+                                        على
+                                        العميل ليتصور
+                                        طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه … بروشور او فلاير على سبيل
+                                        المثال
+                                        …
+                                        او نماذج مواقع انترنت … وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا
+                                        النص
+                                        من
+                                        التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم ويقول البعض ان وضع النصوص
+                                        التجريبية
+                                        بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم
+                                        الاساسي.
+                                    </p>
+                                    <div>
+                                        <i class="fa-solid text-main fa-user-group"></i>
+                                        <span class="text-gray fw-normal">200</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="col">
+                            <div class="card h-100 bg-white shadow p-2 border-0 article-category-content ">
+                                <img src="./assets/images/article/article-1.png"
+                                    class="card-img-top object-fit-cover object-position-center " alt="...">
 
-                        <h2 class="fw-bold fs-20 text-start main_title">
-                            شروط الصلاة وحكمها
+                                <div class="card-body">
+                                    <h5 class="card-title text-black">الطهارة</h5>
+                                    <p class="card-text articleText">لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم
+                                        لتعرض
+                                        على
+                                        العميل ليتصور
+                                        طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه … بروشور او فلاير على سبيل
+                                        المثال
+                                        …
+                                        او نماذج مواقع انترنت … وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا
+                                        النص
+                                        من
+                                        التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم ويقول البعض ان وضع النصوص
+                                        التجريبية
+                                        بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم
+                                        الاساسي.
+                                    </p>
+                                    <div>
+                                        <i class="fa-solid text-main fa-user-group"></i>
+                                        <span class="text-gray fw-normal">200</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
 
-                        </h2>
-                        <div class="info d-flex align-items-center gap-2">
-                            <img src="./assets/images/usersicon.png" alt="">
-                            <span class="text-muted font-normal">
-                                200
-                                طالب آخر أكملوا هذا الدرس
 
-                            </span>
-                        </div>
+
+                        <!-- end article details -->
                     </div>
                 </div>
+
+
             </div>
-            <!-- end progress card -->
 
-
-            <div class="main_content d-grid align-items-center  gap-3 py-4  m-2 my-5 px-3">
-                <h2 class="fw-semi-bold ">
-                    استقبال القِبْلَة
-                </h2>
-                <h2 class="orange_title">
-                    محتوي الدرس
-                </h2>
-                <p>
-                    قال تعالى:(يَا بَنِي آدَمَ خُذُوا زِينَتَكُمْ عِنْدَ كُلِّ مَسْجِد) (الأعراف:31)، وستر العورة هو أقل
-                    قدر للزينة، ومعنى كل مسجد: أي كل صلاة.
-
-                </p>
-                <img width="300" src="./assets/images/courses4img.png" alt="">
-
-                <div class="d-flex ms-auto mt-5 align-items-center gap-4">
-                    <button class="btn main_rounded_btn  bg_green"> السابق </button>
-                    <button class="btn main_rounded_btn "> التالي </button>
-                </div>
-            </div>
         </div>
     </div>
+    <!-- end start article details -->
 
-    <footer class="footer">
+    <footer class=" footer">
         <div class="footer-img">
             <img src="./assets/images/footer-img.webp" alt="">
         </div>
@@ -249,9 +295,12 @@
                             <img src="./assets/images/logo.png" alt="">
                         </div>
                         <div class="footer_conten">
-                            <p>“لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
-                                أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد
-                                أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات . ديواس
+                            <p>“لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج
+                                أليايت,سيت دو أيوسمود تيمبور
+                                أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم
+                                أد مينيم فينايم,كيواس نوستريد
+                                أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا
+                                كوممودو كونسيكيوات . ديواس
                             </p>
                         </div>
                     </div>
@@ -301,6 +350,8 @@
             </div>
         </div>
     </footer>
+
+    <!-- script -->
     <script src="./assets/js/jquery-3.6.0.min.js"></script>
     <script src="./assets/js/popper.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
@@ -310,6 +361,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script src="./assets/js/main.js"></script>
+    <script>
+        function truncateText(element, length) {
+            let text = element.textContent;
+            if (text.length <= length) {
+                return text;
+            }
+            return text.substring(0, length) + "...";
+        }
+
+        let articleText = document.querySelectorAll(".articleText");
+        articleText.forEach(element => {
+            let truncatedText = truncateText(element, 300);
+            element.textContent = truncatedText;
+        });
+    </script>
+
 </body>
+
 
 </html>

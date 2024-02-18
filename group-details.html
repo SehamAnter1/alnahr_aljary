@@ -20,10 +20,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- english styling -->
+    <!-- <link rel="stylesheet" href="./assets/css/style-en.css"> -->
     <title>المقالات</title>
 </head>
 
-<body dir="rtl">
+<body>
     <div class="splashscreen">
         <div class="loading">
             <div></div>
@@ -148,29 +150,149 @@
     <div class="container">
         <div class="special-header text-center my-3 d-flex align-items-center justify-content-center gap-2 ">
             <img src="./assets/images/icon/right-line.png" class="line">
-            <h1 class="fs-25 text-main fw-bold"> منصة التميز
-
+            <h1 class="fs-25 text-main fw-bold"> المجموعات
             </h1>
             <img src="./assets/images/icon/left-line.png" class="line">
         </div>
     </div>
     <!-- end special header -->
-    <!-- award  -->
-    <div class="container">
-        <!-- rank -->
-        <ul>
-            <li class="border-light-gray radius-11 p-3">
-                <figure class="mb-0 position-relative">
-                    <img src="./assets/images/groups/toa-heftiba-chn-__w4.png" alt="">
-                    <span class="flag">
-                        <img src="./assets/images/groups/flag.png" alt="">
-                    </span>
-                </figure>
-            </li>
-        </ul>
-    </div>
-    <!-- end award  -->
 
+    <!-- start gropus section -->
+    <div class="container mb-4">
+        <!-- start group -->
+        <div
+            class="border-light-gray mb-4 radius-11 group-container p-2 d-flex align-items-end gap-4 justify-content-between">
+            <!-- content -->
+            <div class="d-flex align-items-center gap-3 group">
+                <figure class="mb-0">
+                    <img src="./assets/images/groups/groups.png" alt="group picture">
+                </figure>
+                <div class="d-flex flex-column gap-1 group-content group-content-details">
+                    <h4 class="fs-25 fw-bold">مجموعة الطلاب المصريين</h4>
+                    <p class="text-gray text-18 group-text">لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+                        العميل ليتصور
+                        طريقه
+                        وضع النصوص بالتصاميم
+                        سواء كانت تصاميم مطبوعه … بروشور او فلاير على سبيل المثال … او نماذج مواقع انترنت …
+                    </p>
+                    <div class="icon d-flex flex-row align-items-center ">
+                        <div>
+                            <i class="fa-solid fa-user text-main"></i>
+                            <span class="text-gray fs-16">
+                                مدير المجموعة
+                            </span>
+                            <strong class="text-black fs-18">عبد الرحمن زيد بن علي</strong>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-user-group text-main"></i>
+                            <span class="text-gray fs-16">
+                                عدد أعضاء المجموعة
+                            </span>
+                            <strong class="text-black fs-18"> 120 </strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- end group -->
+    </div>
+    <!-- end gropus section -->
+    <!-- start join request -->
+    <div class="container mb-4">
+        <div class="border-light-gray radius-11 py-3 px-4">
+            <h4 class="text-balck fs-25 fw-bold">انضم الينا الان</h4>
+            <p class="text-gray fs-18">
+                قم بالانضمام الي المجموعة حتي تتمكن من الاستفادة من جميع مميزات المجموعة
+
+            </p>
+            <button class="rounded-pill-lime">الانضمام للمجموعة
+            </button>
+        </div>
+    </div>
+    <!-- end join request -->
+    <!-- start chat -->
+    <div class="container my-5">
+        <div class="border-light-gray radius-11 p-3 ">
+            <!-- start headder -->
+            <header>
+                <h3 class="fs-25 fw-bold"><span> # </span>العام
+                </h3>
+                <div class="d-flex align-items-center gap-3 mt-3 border-bottom border-2 pb-2">
+                    <div class="d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-user-group text-main"></i>
+                        <span class="fs-16 text-gray">عدد أعضاء المجموعة</span>
+                        <strong class="text-black fw-bold fs-18">120</strong>
+                    </div>
+                    <!-- active users -->
+                    <div class="active-user d-flex align-items-center gap-1">
+                        <span class=" badge-light-green w-6 "></span>
+                        <span><strong>50</strong> متواجدين</span>
+                    </div>
+                </div>
+            </header>
+            <!-- end headder -->
+            <!-- start body -->
+            <div>
+                <!-- item -->
+                <div class="chat-item py-4">
+                    <!-- header -->
+                    <figure class="mb-0 chat-item-header d-flex align-items-center gap-2">
+                        <img src="./assets/images/groups/userPic.png" alt="user">
+                        <div class="d-flex flex-column gap-2">
+                            <span class="text-gray fs-18">محمود عبدالله رحيم
+                            </span>
+                            <span class="text-gray fs-14">10:45 PM</span>
+                        </div>
+                    </figure>
+                    <!-- end header -->
+                    <!-- text message -->
+                    <p class="text-gray fs-20 chat-text mt-4">
+                        لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص
+                        بالتصاميم سواء كانت تصاميم مطبوعه … بروشور او فلاير على سبيل المثال … او نماذج مواقع انترنت …
+
+                    </p>
+                    <!-- controller -->
+                    <div class="d-flex align-items-center controller mt-4 ">
+                        <i class="fa-solid fa-heart text-light-lime fs-25 cursor-pointer "></i>
+                        <i class="fa-solid fa-message text-light-lime fs-25 cursor-pointer "></i>
+                        <i class="fa-solid fa-retweet text-light-lime fs-25 cursor-pointer"></i>
+                    </div>
+                </div>
+                <!-- end item -->
+                <!-- time divider -->
+                <div class="tiemDivider  position-relative d-flex align-items-center justify-content-center">
+                    <span class="text-gray fs-16">اليوم
+                    </span>
+                </div>
+                <!-- end time divider -->
+
+                <!-- editor -->
+                <form action="" class=" mt-4 mb-3  border-light-gray radius-11 px-5 py-3">
+                    <div class="border-bottom border-2 p-2">
+                        <textarea class="textarea w-100 mb-2"></textarea>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-end gap-2 py-2">
+
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="fa-solid fa-microphone fs-25 text-gray "></i>
+                            <i class="fa-solid fa-video fs-25 text-gray"></i>
+                            <i class="fa-solid fa-paperclip fs-25 text-gray"></i>
+                        </div>
+                        <button class="input-group-text bg-main" id="basic-addon2">
+                            <img src="./assets/images/send.svg" alt="">
+                        </button>
+                    </div>
+                </form>
+                <!-- end editor -->
+            </div>
+            <!-- end body -->
+            <!-- start chat editor -->
+            <!-- end chat editor -->
+        </div>
+    </div>
+    <!-- end chat -->
     <footer class=" footer">
         <div class="footer-img">
             <img src="./assets/images/footer-img.webp" alt="">
@@ -260,7 +382,7 @@
 
         let articleText = document.querySelectorAll(".articleText");
         articleText.forEach(element => {
-            let truncatedText = truncateText(element, 300);
+            let truncatedText = truncateText(element, 170);
             element.textContent = truncatedText;
         });
     </script>

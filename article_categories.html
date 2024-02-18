@@ -20,10 +20,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- english styling -->
+    <!-- <link rel="stylesheet" href="./assets/css/style-en.css"> -->
     <title>المقالات</title>
 </head>
 
-<body dir="rtl">
+<body>
     <div class="splashscreen">
         <div class="loading">
             <div></div>
@@ -116,7 +118,7 @@
     </div>
     <!-- sign in alert -->
     <div class="container">
-        <div class="singin-alert  mt-4 mb-3 d-flex align-items-start justify-content-between">
+        <div class="singin-alert mt-4 mb-3 d-flex align-items-start justify-content-between">
             <div class="flex-1 signin-alert-box pt-2">
                 <h3>لم تقم بتسجيل الدخول
                 </h3>
@@ -148,35 +150,58 @@
     <div class="container">
         <div class="special-header text-center my-3 d-flex align-items-center justify-content-center gap-2 ">
             <img src="./assets/images/icon/right-line.png" class="line">
-            <h1 class="fs-25 text-main fw-bold"> الصلاة </h1>
+            <h1 class="fs-25 text-main fw-bold">مقالات فقهية </h1>
             <img src="./assets/images/icon/left-line.png" class="line">
         </div>
     </div>
     <!-- end special header -->
     <!-- start article details -->
-    <div class="article mt-5">
-        <div class="container ">
-            <div class="border-light-gray radius-11 p-3">
-                <!-- header -->
-                <h3 class="text-gold fs-25 fw-bold">الدروس</h3>
-                <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-3">
-                    <!-- start article details -->
-                    <div class="col">
-                        <div class="card bg-white shadow p-2 border-0 article-category-content ">
-                            <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">الطهارة</h5>
-                                <div class="d-flex align-items-center justify-content-center gap-2 mt-4">
-                                    <button class="rounded-pill-main">ابدأ التعلم
-                                    </button>
-                                    <button class="rounded-pill-lime">الاختبار
-                                    </button>
-                                </div>
+    <div class="article my-5">
+        <div class="container px-0 px-xl-5">
+            <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1 g-3">
+                <!-- start article details -->
+                <a class="col">
+                    <div class="card bg-gray p-2 border-0 article-category-content ">
+                        <img src="./assets/images/article/article-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-black">الطهارة</h5>
+                            <p class="card-text articleText">لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+                                العميل ليتصور
+                                طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه … بروشور او فلاير على سبيل المثال …
+                                او نماذج مواقع انترنت … وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من
+                                التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم ويقول البعض ان وضع النصوص التجريبية
+                                بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم الاساسي.
+                            </p>
+                            <div class="d-flex align-items-start gap-1 text-10">
+                                <i class="fa-regular fa-calendar text-gray "></i>
+                                <p class="text-gray text-10">الخميس 21 رجب 1440ﻫ 28-3-2019م
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <!-- end article details -->
-                </div>
+                </a>
+                <!-- end article details -->
+            </div>
+            <!-- pagination -->
+            <div class="mt-4 d-flex justify-content-end">
+
+                <nav aria-label="Page navigation ">
+                    <ul class="pagination d-flex align-items-center gap-2">
+                        <li class="page-item">
+                            <a class="page-link previous" href="#" aria-label="Previous">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link paginationItem" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link paginationItem active" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link paginationItem" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link next" href="#" aria-label="Next">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
 
         </div>
